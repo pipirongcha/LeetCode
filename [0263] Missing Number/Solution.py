@@ -1,4 +1,4 @@
-#내 풀이, O(2n)
+#내 풀이, O(n log n)
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         nums.sort()
