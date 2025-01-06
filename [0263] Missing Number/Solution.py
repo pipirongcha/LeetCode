@@ -9,7 +9,7 @@ class Solution:
     
 
 #아래는 O(n) 풀이법
-#i가 nums[i] 동일하지 않을 때만 리스트의 총 길이값에 해당 인덱스 값을 빼주는 방식
+# (nums 길이) += (nums의 모든 인덱스 숫자의 합) - (nums 내 모든 value의 합) 을 구하는 방식으로 해결
 class Solution:
     def missingNumber(self, nums: List[int]) -> int:
         res = len(nums)
