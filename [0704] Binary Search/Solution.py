@@ -1,4 +1,4 @@
-# 내 o리컬시브 풀이, O(log n)
+# 내 리컬시브 풀이, O(log n)
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
         a = len(nums)//2
